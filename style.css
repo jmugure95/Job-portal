@@ -1,0 +1,221 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+body{
+	font-family: sans-serif;
+}
+a{
+	text-decoration: none;
+	transition: all 500ms ease-in-out;
+}
+a:hover,
+a:active{
+	text-decoration: none;
+}
+
+.btn{
+	transition: all 300ms ease-in-out;
+}
+.btn:hover{
+	background-color: #ededed !important;
+	color: navy blue !important;
+	border: 1px solid #fff !important;
+}
+
+
+/*---------------------------------Navigation Bar section--------------------------------------*/
+
+#nav-bar{
+	position: sticky;
+	top:0;
+	z-index: 10;
+}
+.navbar{
+	background-image: linear-gradient(to right,#3a7bd5,#00d2ff);
+	padding:20px 20px 0 10px !important;
+
+}
+.navbar-brand img{
+	height:45px;
+	padding-left: 30px;
+}
+
+.navbar a:hover{
+	opacity: 1;
+}
+
+.navbar-nav li{
+	padding: 0 10px;
+}
+
+.navbar-nav li a{
+	color: #fff !important;
+	font-weight: 600;
+	float: right;
+	text-align: left;
+	opacity: 0.8;
+}
+
+.fa-bars{
+	color: #fff;
+	font-size: 30px !important;
+}
+.navbar-toggler{
+	outline: none !important;
+}
+/*---------------------------------End Navigation Bar section--------------------------------------*/
+
+
+/*---------------------------------Banner Bection--------------------------------------------------*/
+
+#banner{
+	background-image: linear-gradient(to right,#3a7bd5,#00d2ff);
+	color: #fff;
+	padding-top: 5%;
+	padding-bottom: 6%;
+}
+.promo-title{
+	font-size: 48px;
+	font-weight: 550;
+	margin-top: 100px;
+	font-family: fantasy;
+	padding-bottom: 50px;
+}
+#sm-promo-title{
+	font-size: 15px;
+	font-weight: 2 !important;
+	margin-top: -12px;
+	padding-bottom: 18px;
+}
+.bottom-img{
+	padding-top: 150px;
+	width: 100%;
+
+}
+#banner-search{
+	color: black;
+}
+#banner-search i{
+	padding-right: 10px;
+}
+#banner-search form{
+	padding: 20px;
+	background-color: white;
+	border-radius: 6%;	
+}
+#banner-search h5{
+	font-size: 25px;
+	margin-top: 10px;
+	font-family: fantasy;
+	padding-bottom: 20px;
+}
+#banner-search p{
+	font-size: 15px;
+	font-weight: 200;
+	margin-top: -12px;
+	padding-bottom: 18px;
+}
+
+.dropdown button{
+	background-color: #ffffff !important;
+	width: 84%;
+}
+
+#banner-search .btn{
+	width: 84%;
+	background-color: #00C0F7 !important;
+}
+
+#banner-search .btn :hover{
+	color: black;
+	background-color: #ffffff !important;
+}
+/*---------------------------------End Banner Bection--------------------------------------------------*/
+
+/*---------------------------------About Us--------------------------------------------------*/
+
+#about{
+	padding: 10% 0 24%;
+	margin: 0 15%;
+}
+#about h3{
+	padding-bottom: 3%;
+	font-size: 30px;
+
+}
+#about p{
+	font-size: 17px;
+}
+/*---------------------------------End About us--------------------------------------------------*/
+
+/*---------------------------------Testimonials--------------------------------------------------*/
+
+ #testimonials{
+ 	padding: 9% 0 18%;
+ 	text-align: center;
+ 	background-image: linear-gradient(to right,#3a7bd5,#00d2ff);
+ }
+
+ #testimonials h3{
+	padding-bottom: 1%;
+	font-size: 30px;
+}
+
+ #testimonials p{
+ 	color: black;
+ }
+ #testimonials b{
+ 	color: white;
+ }
+
+ #testimonials img{
+ 	height: 160px;
+ 	width: 150px;   
+ 	margin-top: 30px;
+	border-radius: 50%;
+	padding-bottom: 5%; 
+ }
+
+/*---------------------------------End Testimonials--------------------------------------------------*/
+
+
+ /*---------------------------------Footer--------------------------------------------------*/
+
+#bottom{
+	background-color:#000000;
+	padding:7% 0 5%;
+	color: white;
+}
+#bottom h4{
+	font-size: 20px;
+	font-weight: 252;
+	padding-bottom: 4%;
+}
+#bottom p{
+	font-size: 12px;
+}
+#bottom #three p{
+	font-size: 16px;
+}
+#bottom img{
+	height: 30px;
+	width: 35px;
+	padding-right: 7px;
+}
+#one{
+	text-align: center;
+}
+#two{
+	text-align: center;
+}
+#three{
+	text-align: center;
+	padding-top: 6%;
+}
+#four{
+	text-align: center;
+}
+
+ /*---------------------------------End Footer--------------------------------------------------*/

@@ -4,10 +4,14 @@
 	font-family: 'Open Sans Condensed', sans-serif; 
 
 }
+body{
+     /*background-image: linear-gradient(to right,#fff,#00d);*/
+}
 
 
 .card-title{
-     font-size: 55px;
+     font-size: 58px;
+     color: blue;
      font-weight: 65 !important;
 }
 .card-body{
@@ -16,6 +20,11 @@
 .form-group{
      padding-top: 8%;
 }
+
+.form-group label{
+     font-size: 20px;
+}
+
 
 .form-group input,select{
      border-left: none !important;

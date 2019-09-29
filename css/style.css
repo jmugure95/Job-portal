@@ -1,6 +1,7 @@
 *{
 	padding: 0;
 	margin: 0;
+	font-family: 'Open Sans Condensed', sans-serif; 
 }
 
 body{
@@ -74,18 +75,18 @@ a:active{
 	background-image: linear-gradient(to right,#3a7bd5,#00d2ff);
 	color: #fff;
 	padding-top: 5%;
-	padding-bottom: 6%;
+	padding-bottom: 8%;
 }
 .promo-title{
-	font-size: 48px;
-	font-weight: 550;
 	margin-top: 100px;
-	font-family: fantasy;
+	font-size: 54px; 
+	font-weight: normal; 
+	line-height: 60px;
 	padding-bottom: 50px;
 }
 #sm-promo-title{
 	font-size: 15px;
-	font-weight: 2 !important;
+	font-weight: 3 !important;
 	margin-top: -12px;
 	padding-bottom: 18px;
 }
@@ -197,7 +198,7 @@ a:active{
 	font-size: 12px;
 }
 #bottom #three p{
-	font-size: 16px;
+	font-size: 14px;
 }
 #bottom img{
 	height: 30px;
@@ -212,7 +213,7 @@ a:active{
 }
 #three{
 	text-align: center;
-	padding-top: 6%;
+	padding-top: 7%;
 }
 #four{
 	text-align: center;

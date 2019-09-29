@@ -1,0 +1,51 @@
+*{
+	padding: 0;
+	margin: 0;
+	font-family: 'Open Sans Condensed', sans-serif; 
+
+}
+
+
+.card-title{
+     font-size: 55px;
+     font-weight: 65 !important;
+}
+.card-body{
+     margin-top: 20%;
+}
+.form-group{
+     padding-top: 8%;
+}
+
+.form-group input,select{
+     border-left: none !important;
+     border-right: none !important;
+     border-top: none !important;
+     box-shadow: none !important;
+}
+.form-group label{
+     font-weight: 50px !important;
+}
+
+
+#first{
+     margin-left: 30%;
+}
+.whole{
+    
+}
+.card{
+     padding-top: 15px;
+     margin-top: 217px;
+}
+
+#cards{
+     height: 190px;
+}
+
+.c-title{
+     font-size: 33px;
+}
+i{
+     color: #888888;
+}

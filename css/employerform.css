@@ -1,0 +1,43 @@
+*{
+	padding: 0;
+	margin: 0;
+	font-family: 'Open Sans Condensed', sans-serif; 
+}
+body{
+		background-image: linear-gradient(to right,#3a7bd5,#00d2ff);
+	}
+
+
+form{
+	padding: 20px;
+	background-color: white;
+	border-radius: 5%;
+	margin-top: 35%;
+}
+h5{
+	color: #1EA4E9;
+}
+
+input {
+      border-width:0px;
+      border-left: none !important;
+      border-right: none !important;
+      border-top: none !important;
+      box-shadow: none !important;
+
+  }
+
+ .btn-grad {
+  	background-image: linear-gradient(to right,#3a7bd5,#00d2ff);
+  }
+
+
+img{
+	top:-3%;
+	left:42%;
+	position:absolute;
+	z-index:-8;
+	width: 200px;
+	height: 150px;
+	margin-top:50px;
+}

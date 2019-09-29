@@ -1,0 +1,64 @@
+
+/*---------------------------------Banner Bection--------------------------------------------------*/
+
+*{
+	font-family: 'Open Sans Condensed', sans-serif; 
+	color: black;
+}
+body{
+	background-image: linear-gradient(to right,#fff,#00d2ff);
+}
+
+#employer{
+	padding-right: 180px;
+}
+
+#banner{
+
+	padding-top: 2%;
+
+}
+.promo-title{
+	margin-top: 140px;
+	font-size: 75px; 
+	font-weight: normal; 
+	line-height: 60px;
+	padding-bottom: 27.6px;
+}
+
+.promo-title p{
+	color: blue !important;
+}
+#sm-promo-title{
+	font-size: 19px;
+	color: black;
+	font-weight: 2 !important;
+	margin-top: -12px;
+	padding-bottom: 18px;
+}
+
+#banner-search{
+	padding-top: 20px;
+	padding-left: 15px;
+	color: black;
+}
+
+#banner-search a{
+	margin-left: 39px;
+}
+
+#banner-search h5{
+	font-size: 21px;
+	margin-top: 10px;
+	padding: 20px 0 20px;
+}
+.btn a{
+	color: white;
+	padding-right: 30px;
+	vertical-align: middle;
+}
+.btn a:hover{
+	color: white;
+}
+
+/*---------------------------------End Banner Bection--------------------------------------------------*/
